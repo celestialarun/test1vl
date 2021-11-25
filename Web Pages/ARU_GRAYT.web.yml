@@ -1,0 +1,40 @@
+﻿Web Page:
+  Name:               Aru_graytheme
+  Enabled For RDMLX:  Yes
+
+  Multilingual Details:
+  - ENG:
+      Description:        "testgray theme web"
+
+  - FRA:
+      Description:        "testgray theme web"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_WEB) Theme(#BROWN_TES)
+    
+    Define_Com Class(#PRIM_MD.RaisedButton) Name(#Button) Caption('PRIMARY') Displayposition(1) Left(86) Parent(#COM_OWNER) Tabposition(1) Themedrawstyle('MediumTitle') Top(72)
+    Define_Com Class(#PRIM_MD.RaisedButton) Name(#Button1) Caption('ACCENT') Displayposition(2) Left(96) Parent(#COM_OWNER) Tabposition(2) Themedrawstyle('MediumAccent') Top(184)
+    Define_Com Class(#PRIM_MD.Edit) Name(#Edit) Caption('Caption') Displayposition(3) Left(312) Parent(#COM_OWNER) Tabposition(3) Top(72) Height(56) Width(272)
+    Define_Com Class(#PRIM_MD.Edit) Name(#Edit1) Appearance(TextFieldBox) Caption('Caption') Displayposition(4) Left(312) Parent(#COM_OWNER) Tabposition(4) Top(176) Height(56) Width(292)
+    
+    Evtroutine Handling(#Com_owner.Initialize)
+    
+    Endroutine
+    
+    End_Com
+
+  Offline Support:    No
+  Allow Zoom:         Yes
+
+  Web App Manifest:
+
+  Loading Screen:
+    Image:              Spinner
+
+    Multilingual Text:
+    - ENG:
+        Text:               "Loading..."
+    - FRA:
+        Text:               "Loading..."
+
+  Security Policy:    None

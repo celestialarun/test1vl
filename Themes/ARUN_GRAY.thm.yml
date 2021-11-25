@@ -1,0 +1,15 @@
+﻿Theme:
+  Name:               Arun_graytheme
+  Target Platform:    Browser
+
+  Multilingual Details:
+  - ENG:
+      Description:        "testgray theme"
+
+  - FRA:
+      Description:        "testgray theme"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_THM) Basetheme(MaterialDesignGray) Themeaccentdarkcolor('#f57c00') Themeaccentlightcolor('#ffb74d') Themeaccentmediumcolor('#ff9800')
+    
+    End_Com

@@ -1,0 +1,15 @@
+﻿Theme:
+  Name:               Brown_Test
+  Target Platform:    Browser
+
+  Multilingual Details:
+  - ENG:
+      Description:        "Test brown"
+
+  - FRA:
+      Description:        "Test brown"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_THM) Basetheme(MaterialDesignBrown) Themeaccentdarkcolor('#afb42b') Themeaccentlightcolor('#dce775') Themeaccentmediumcolor('#cddc39')
+    
+    End_Com

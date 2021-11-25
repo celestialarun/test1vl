@@ -1,0 +1,15 @@
+﻿Theme:
+  Name:               Arun_Redtheme
+  Target Platform:    Browser
+
+  Multilingual Details:
+  - ENG:
+      Description:        "test red theme"
+
+  - FRA:
+      Description:        "test red theme"
+
+  Source: |
+    Begin_Com Role(*EXTENDS #PRIM_THM) Basetheme(MaterialDesignRed) Themeaccentdarkcolor('#388e3c') Themeaccentlightcolor('#81c784') Themeaccentmediumcolor('#4caf50')
+    
+    End_Com
